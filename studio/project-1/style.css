@@ -1,0 +1,33 @@
+.title{
+    padding-top:150px;
+}
+mark{
+    border-radius: 20%;
+    width: 50%;
+    color:black;
+}
+.header{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 80px;
+    white-space: nowrap;
+}
+
+a{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+}
+.question{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position:relative;
+    font-size: 50px;
+    text-align: left;
+    inline-size: 500px;
+    margin-left: 5450px;
+    margin-top:-200px;
+}
