@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.circle1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display:flex;
+    margin-top: 30px;
+    background: radial-gradient(circle at 50% 50%, rgba(0,0,255,1), white), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(300%) brightness(1000%) blur(20%);
+    mix-blend-mode: darken;
+    animation: scale 6s infinite ease-in-out;
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:flex;
+    margin-top: 30px;
+    background: radial-gradient(circle at 50% 50%, rgb(211, 8, 211), transparent), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(20%) brightness(1000%) blur(30%);
+    animation: scale 3s infinite ease-in-out;
+    mix-blend-mode: color-burn;
+    animation-delay: 1s;
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display:flex;
+    margin-top: 30px;
+    background: radial-gradient(circle at 50% 50%, rgb(255, 244, 28), transparent), url(https://grainy-gradients.vercel.app/noise.svg);
+    filter: contrast(170%) brightness(1000%) blur(30%);
+    animation: scale 3s infinite ease-in-out;
+    mix-blend-mode: multiply;
+    animation-delay: 1s;
+}
+@keyframes scale{
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+    100% {
+        transform: scale(2.0);
+        -webkit-transform: scale(2.0);
+    }
+}
+
+.title{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 1000;
+    font-style: large;
+    text-align: center;
+    margin-top: 0vw;
+}

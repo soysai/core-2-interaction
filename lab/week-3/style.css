@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(255, 243, 224);
+}
+
+h1{
+    font-family: "megazoid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+}
+
+h4{
+    font-family: "iki-mono-variable",sans-serif;
+    font-variation-settings: 'wght' 400, 'wdth' 100;
+    font-size: 20px;
+    text-align:center; 
+}
+
+.introduction{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px;
+}
+
+p{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin: 20px;
+}
+
+blockquote{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+}
+.image1{
+    text-align:center; 
+}
+.image2 img{
+    width:10%;
+    height: 200px;
+}
+
+.image2{
+    text-align:center; 
+}
+
+.more_options{
+    text-align:center;
+}
+
+marquee{
+    font-family: "megazoid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:300px;
+    
+}
