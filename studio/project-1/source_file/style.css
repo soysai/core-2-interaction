@@ -1,0 +1,65 @@
+/*regular styling of elements
+long sentences */
+
+.body{
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 60px;
+}
+
+/* change in font */ 
+
+{
+font-family: "adobe-caslon-pro", serif;
+font-weight: 400;
+font-style: italic;
+position:relative;
+font-size: 70px;
+text-shadow:
+-5px -5px 0 yellow,
+ 0   -5px 0 yellow,
+ 5px -5px 0 yellow,
+ 5px  0   0 yellow,
+ 5px  5px 0 yellow,
+ 0   5px 0 yellow,
+-5px  5px 0 yellow,
+-5px  0   0 yellow;
+cursor:pointer;
+}
+
+/* for replaced content */
+.explanation{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 500px;
+    margin-bottom:500px;
+    display:none;
+}
+
+#spell-error-1{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#spell-error-1::before{
+    content: "~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+}
+
+#correction-1{
+display:none;
+}
+
+/*

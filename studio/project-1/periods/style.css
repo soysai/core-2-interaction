@@ -1,0 +1,87 @@
+#intro, 
+#ending,
+#outro{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#replacewiththis,
+#replacewiththis2{
+    display: none;
+    cursor: pointer;
+}
+
+.container{
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+
+}
+.column {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display:none;
+}
+
+h2{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#spell-error-1{
+    position: relative;
+    cursor: pointer;
+    text-decoration:4px underline wavy red;
+}
+
+#long{
+    white-space: nowrap;
+}
+
+a{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black; 
+    text-decoration: none;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+}
+
+#ending{
+    white-space: nowrap;
+    display: none;
+}
+
+#replacewiththis3{
+    display: none;
+}
+
+#outro{
+    margin-left: 6200px;
+    white-space: nowrap;
+    display: none;
+}

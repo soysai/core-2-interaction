@@ -1,0 +1,349 @@
+body{
+    margin:20px; 
+}
+.intro{
+font-family: "neue-haas-grotesk-display", sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 60px;
+}
+
+#font-change{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+}
+
+#replace{
+    display:none;
+}
+
+#replaced{
+    cursor:pointer;
+}
+
+/* customizing the look of more content that is initialy hidden */
+
+.explanation{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 500px;
+    margin-bottom:500px;
+    display:none;
+}
+
+#spell-error-1{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#spell-error-1::before{
+    content: "~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+}
+
+#correction-1{
+display:none;
+}
+
+#question{
+    cursor:pointer;
+    white-space: nowrap;
+
+}
+
+#question-replaced{
+    display:none;
+}
+
+#spell-error-2{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#spell-error-2::before{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+}
+#correction-2{
+    display:none;
+}
+
+#font-change-2{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+}
+
+#definition{
+    margin-left: 5000px;
+    margin-top: -500px;
+    inline-size: 700px;
+    display:none;
+}
+
+.noun-title{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 90px;
+}
+.noun{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;   
+    display: "inline-block";
+}
+
+#back,
+#down{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+}
+
+#down{
+    margin-top: -220px;
+    display: none;
+}
+
+/* new section with lengthy content*/
+
+#repetition{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;  
+    white-space: nowrap;
+    margin-top: 1000px;
+    margin-bottom: 750px;
+    display: none;
+}
+
+/*spelling error 3 */
+#spell-error-3{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#spell-error-3::before{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+#correction-3{
+    display:none;
+    padding-right: 20px;
+}
+
+#other_punctuations{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:absolute;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+    0   -5px 0 yellow,
+    5px -5px 0 yellow,
+    5px  0   0 yellow,
+    5px  5px 0 yellow,
+    0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    margin-top: -100px;
+    margin-left: 6150px;
+    display: none;
+    white-space: nowrap;
+}
+
+/* new punctuation marks */
+
+#punctuation_mark{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;  
+    display:none;
+    margin-bottom: 700px;
+    margin-left: 20px;
+}
+
+#quotation_mark{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 500px;
+    margin-bottom:500px;
+    display:none;
+}
+
+#difficulty{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+    0   -5px 0 yellow,
+    5px -5px 0 yellow,
+    5px  0   0 yellow,
+    5px  5px 0 yellow,
+    0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    margin-top: -30px;
+}
+
+#disstrack{
+    display:none;
+}
+
+#repetition-2{
+    white-space: nowrap; 
+    display:none;
+}
+
+#segue{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+    0   -5px 0 yellow,
+    5px -5px 0 yellow,
+    5px  0   0 yellow,
+    5px  5px 0 yellow,
+    0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+}
+#thoughts{
+    display:none;
+}
+#replace-2{
+    display:none;
+}
+
+#replaced-2{
+    cursor:pointer;
+}
+
+#uninteresting,
+#uninteresting_clarification{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display:none;
+}
+
+
+#highlight_again,
+#highlight_mark,
+a{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+    0   -5px 0 yellow,
+    5px -5px 0 yellow,
+    5px  0   0 yellow,
+    5px  5px 0 yellow,
+    0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    text-decoration:none;
+    color: black;
+}
+
+#hidden{
+    display:none;
+}
+
+#present{
+    cursor:pointer;
+}
+
+#apostrophe{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display:none;
+    margin-top: 300px;
+}

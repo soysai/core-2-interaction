@@ -1,0 +1,111 @@
+body{
+    margin: 20px;
+    
+}
+
+#colonandsemicolon,
+#conclusion {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+a{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#commas,
+#comma2, 
+#comma3 {
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    text-decoration: none;
+    color: black;
+}
+
+#explanation{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    margin-top: 700px;
+    display: none;
+}
+
+#commadefinitionrevealed{
+    display: none;
+}
+
+#colondefinition, 
+#reasons{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display: none;
+}
+
+#error, 
+#repetition{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+#error::before,
+#repetition::before{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+#correction, 
+#replacementcontradiction{
+    display: none;
+}
+
+#reasons{
+    white-space: nowrap;
+}
+
+#conclusion{
+    display:none;
+}

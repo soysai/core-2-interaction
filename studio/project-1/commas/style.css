@@ -1,0 +1,102 @@
+#intro,
+#rant{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+}
+
+#rant{
+    margin-top: 500px;
+    margin-bottom: 900px;
+    white-space: nowrap;
+    display: none;
+}
+#conclusion,
+#comma,
+#adverbial_clauses{
+    font-family: "adobe-caslon-pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-shadow:
+    -5px -5px 0 yellow,
+     0   -5px 0 yellow,
+     5px -5px 0 yellow,
+     5px  0   0 yellow,
+     5px  5px 0 yellow,
+     0   5px 0 yellow,
+    -5px  5px 0 yellow,
+    -5px  0   0 yellow;
+    cursor:pointer;
+    text-decoration:none;
+    color: black;
+    cursor: pointer;
+}
+
+#feel{
+    cursor: pointer;
+}
+#feelshort{
+    display:none;
+}
+
+#rant2{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display:none;
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+#complications{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    display:none; 
+}
+#clarification{
+    display:none;
+}
+#error{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+#error::before{
+    content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+    font-size: 0.5em;
+    font-weight: 900;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    color: red;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: -1px;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+#error-correction{
+    display: none;
+}
+
+#complicated{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    white-space: nowrap;
+    display: none;
+}
+
+#conclusion{
+    float: right;
+    margin-left: 3000px;
+    white-space: nowrap;
+    display: none;
+}

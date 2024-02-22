@@ -1,7 +1,25 @@
+body{
+    background-color: yellow;
+}
 .title{
     padding-top:150px;
 }
+.container {
+    background-color: none;
+    position: absolute;
+    width: 400vw;
+    height: 100vh;
+  }
 
+  .circle {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    opacity: 50%;
+    position: absolute; 
+    height: 50px;
+    width: 50px;
+  }
+  
 #names{
     font-family: "neue-haas-grotesk-display", sans-serif;
     font-weight: 500;
@@ -21,19 +39,22 @@
     width:66.5%;
     animation: blink-caret .5s step-end 5;
 }
+.myname{
+    float: left;
+    position: absolute; 
+    bottom: 0; 
+    left: 20; 
+    z-index: 10;
+    animation: blink-caret .5s step-end 5;
+}
 @keyframes blink-caret {
     from, to { color: transparent }
     50% {color: rgb(0, 0, 0) }
-  }
-mark{
-    border-radius: 10%;
-    width: 50%;
-    color:black;
 }
 
 .header{
     font-family: "neue-haas-grotesk-display", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 80px;
     white-space: nowrap;
@@ -76,6 +97,9 @@ mark{
     } 
 } 
 
+#container:hover::before {
+    animation-play-state: paused;
+}
 
 /*to create pop up when span function is clicked */
 
@@ -84,9 +108,9 @@ mark{
     font-weight: 500;
     font-style: normal;
     position:relative;
-    font-size: 50px;
+    font-size: 60px;
     text-align: left;
-    inline-size: 500px;
+    inline-size: 550px;
     margin-left: 5450px;
     margin-top:-100px;
     display:none;
@@ -97,12 +121,26 @@ mark{
     font-weight: 400;
     font-style: italic;
     position:relative;
-    font-size: 50px;
+    font-size: 60px;
+    color:black;
     text-decoration: none;
+    text-shadow:
+    -5px -5px 0 rgb(255, 255, 255),
+     0   -5px 0 rgb(255, 255, 255),
+     5px -5px 0 rgb(255, 255, 255),
+     5px  0   0 rgb(255, 255, 255),
+     5px  5px 0 rgb(255, 255, 255),
+     0   5px 0 rgb(255, 255, 254),
+    -5px  5px 0 rgb(255, 255, 255),
+    -5px  0   0 rgb(255, 255, 255);
 }
 
 /*replacing text in span replacement tag */
 
 .replace::before{
     content: "first and the most the completely most uninteresting";
+    text-decoration: underline;
+}
+.replace:hover::before {
+    content: "[you get the point -- it's unnecessary]"
 }
