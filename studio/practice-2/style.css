@@ -1,0 +1,102 @@
+body{
+    text-align:center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.title{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 1000;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.on-hover{
+    display:none;
+}
+
+.main-title:hover + .on-hover{
+    display:block;
+}
+
+.subtitle{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-size:medium;
+    text-align: center;
+    animation: fadeIn 5s;
+}
+
+  
+.reveal{
+    background:none;
+    border: solid 1px black;
+    margin-top: 50px;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-size:x-large;
+    animation: bandAnimation 30s linear infinite;
+    display: none;
+}
+.baby{
+    padding-top: 20px;
+    scale: 50%;
+    float: left;
+}
+
+.color{
+    scale: 50%;
+}
+
+.song{
+    scale: 50%;
+}
+
+.chai{
+    scale: 50%;
+}
+
+.pigeon{
+    scale: 50%;
+}
+
+.language{
+    scale: 50%;
+}
+
+.pier{
+    scale: 50%;
+}
+
+.granps{
+    scale: 50%;
+}
+
+.anime{
+    scale: 50%;
+    inline-size: 650px;
+}
+
+.cat{
+    scale: 50%;
+}
+
+@keyframes bandAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-350%); /* Move the entire band to the left by its own width */
+    }
+} 

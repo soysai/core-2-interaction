@@ -1,0 +1,51 @@
+body{
+    font-family: "miller-headline", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: blue;
+}
+
+.nav{
+    border-bottom: solid 1px blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    margin: 10px;
+    background-color: white;
+    position:-webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+/*grid */
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding-left: .5rem;
+    padding-right: 1rem;
+    margin-bottom: 25px;
+    min-height: 200px;
+  }
+  .column-2 {
+    grid-column: span 2;
+  }
+  
+  .column-4 {
+    grid-column: span 4;
+  }
+  
+  .column-6 {
+    grid-column: span 6;
+  }
+
+  .fixed{
+    position: fixed;
+    margin-left: 50%;
+  }

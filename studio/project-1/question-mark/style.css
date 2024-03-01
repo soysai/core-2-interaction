@@ -46,25 +46,6 @@ font-size: 60px;
     display:none;
 }
 
-#spell-error-1{
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-}
-
-#spell-error-1::before{
-    content: "~~~~~~~~~~~~";
-    font-size: 0.5em;
-    font-weight: 900;
-    font-family: "neue-haas-grotesk-display", sans-serif;
-    color: red;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    left: -1px;
-    overflow: hidden;
-}
-
 #correction-1{
 display:none;
 }
@@ -79,13 +60,13 @@ display:none;
     display:none;
 }
 
-#spell-error-2{
+.spell-errors {
     display: inline-block;
     position: relative;
     cursor: pointer;
 }
 
-#spell-error-2::before{
+.spell-errors::before{
     content: "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
     font-size: 0.5em;
     font-weight: 900;
@@ -97,6 +78,7 @@ display:none;
     left: -1px;
     overflow: hidden;
 }
+
 #correction-2{
     display:none;
 }

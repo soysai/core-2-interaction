@@ -7,8 +7,7 @@
     font-size: 60px;
 }
 
-#replacewiththis,
-#replacewiththis2{
+.replacewiththis{
     display: none;
     cursor: pointer;
 }
@@ -73,10 +72,6 @@ a{
 
 #ending{
     white-space: nowrap;
-    display: none;
-}
-
-#replacewiththis3{
     display: none;
 }
 
